@@ -1,0 +1,36 @@
+.item-row-content.row-cus .form-group {
+    width: 106%;
+}
+.box-color .group-1 {
+    background: #D4D2EA;
+}
+
+.box-color .group-2 {
+    background: #D6EBD0;
+}
+.box-color .group-3 {
+    background: #F6D2D4;
+}
+button.btn.btn-danger.delete-col {
+    font-size: 11px;
+    width: 24px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    /*padding-right: 4px;*/
+    margin-top: 4px;
+    transform: translate(6px);
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+     color: #000;
+ }
+p.box-title {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+.select-height {
+    margin-bottom: 10px;
+}

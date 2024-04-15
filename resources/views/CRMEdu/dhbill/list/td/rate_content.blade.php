@@ -1,0 +1,1 @@
+{{ @$item->bill_progress->rate_content }}

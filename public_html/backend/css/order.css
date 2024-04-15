@@ -1,0 +1,606 @@
+.unit_price-content {
+    display: inline-block;
+}
+.don_vi{
+    transform: translateX(-2px);
+    display: block;
+}
+.w-container .bg-grey-blue {
+    margin-right: 0;
+}
+div#insertBox .modal-body {
+    background: #FFDBB3;
+    display: flow-root;
+}
+.bg-pink{
+    background: #ECA5A8;
+    padding: 6px;
+}
+
+.bg-grey-blue{
+    background: #D0D2D3;
+    padding: 6px;
+}
+.box-grey{
+    background: #E6E7E8;
+}
+.box-grey input {
+    color: #444;
+}
+.box-grey input,
+.box-grey .select2-container--default.select2-container--focus .select2-selection--multiple,
+.box-grey .select2-container--default .select2-selection--multiple {
+    background: #d8d8d8;
+    border-radius: 4px;
+}
+.table-striped input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.select-height .select2-container--default .select2-selection--multiple {
+    min-height: 30px !important;
+    height: auto !important;
+}
+.select2-container .select2-selection--multiple ul {
+    /*height: 93%;*/
+    /*overflow-y: scroll !important;*/
+}
+.w-con{
+    display: -webkit-box;
+    overflow: hidden;
+}
+.row-cus label {
+    margin-left: -16px;
+}
+.item-row-content.row-cus .form-group {
+    width: 106%;
+}
+.edit-form .form-group {
+    width: 103% !important;
+    margin-left: -11px;
+}
+.col-color.select-height, .col-color.select-height .form-group {
+    display: flex;
+    text-align: center;
+}
+.input-label-info > div {
+    background: #CCAF8F;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.input-label-info {
+    display: flex;
+    text-align: center;
+}
+.w-container > div {
+    margin-right: 6px;
+}
+
+.w-container {
+    display: flex;
+}
+.bg-black-opa{
+    background: #CCAF8F;
+    margin-bottom: 4px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+div#insertBox .modal-footer button:first-child {
+    margin-top: 10px;
+}
+.box-grey .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    color: #444;
+}
+.box-grey input[type="submit"] {
+    background: green;
+}
+.w-container .bg-pink .input-label-selected, .w-container .bg-grey-blue .input-label-selected {
+    max-height: 135px;
+    overflow-y: scroll;
+}
+.w-container .bg-pink .input-label-selected::-webkit-scrollbar,
+.w-container .bg-grey-blue .input-label-selected::-webkit-scrollbar{
+    background-color: transparent;
+    width: 8px;
+    border-radius: 10px;
+
+}
+.w-container .bg-pink .input-label-selected:hover::-webkit-scrollbar,
+.w-container .bg-grey-blue .input-label-selected:hover::-webkit-scrollbar{
+    background-color: #00000021;
+}
+.w-container .bg-pink .input-label-selected::-webkit-scrollbar-thumb,
+.w-container .bg-grey-blue .input-label-selected::-webkit-scrollbar-thumb{
+    background-color: #00000075;
+    border-radius: 12px;
+    opacity: 0;
+}
+.w-container .bg-pink:hover::-webkit-scrollbar-thumb,
+.w-container .bg-grey-blue:hover::-webkit-scrollbar-thumb{
+    background-color:  #00000075;
+}
+.d-flex{
+    display: flex;
+}
+.input-label-content .input-label-info > div {
+    max-height: 126px;
+    overflow-y: scroll;
+}
+.input-label-content .input-label-info > div::-webkit-scrollbar{
+    background-color: transparent;
+    width: 8px;
+    border-radius: 10px;
+}
+.input-label-content .input-label-info > div:hover::-webkit-scrollbar{
+    background-color: #00000021;
+}
+.input-label-content .input-label-info > div::-webkit-scrollbar-thumb{
+    background-color:  #00000075;
+    border-radius: 10px;
+}
+.bg-prey-bold {
+    background: #929497;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 0;
+}
+
+.bg-prey-bold input {
+    background: #fff;
+}
+
+.box-body .navbar {
+    background: #fff;
+    width: 100%;
+    margin: 0;
+}
+
+.rows-content {
+    margin-top: 0;
+}
+
+.box-body .navbar .navbar-inner {
+    background: red;
+    padding: 4px 13px;
+}
+
+.box-body .navbar .navbar-inner {
+    background: #bbbdbf;
+}
+
+.box-body .navbar .navbar-inner a.active {
+    background: #fff;
+    font-weight: 700;
+}
+
+.box-body .navbar .navbar-inner a {
+    padding: 6px 13px;
+    color: #000000;
+}
+
+div#insertBox .item-checkbox-label-info {
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+
+div#insertBox .item-checkbox-label-info label,
+.input-label-selected label {
+    font-weight: 600;
+    color: #222;
+}
+
+#insertBox {
+    overflow: auto;
+    max-height: 100%;
+}
+#insertBox .modal-body {
+    max-height: initial;
+}
+row-cus .old-col div > .col-sm-2 > label {
+    margin-left: -28px !important;
+}
+@media (min-width: 768px){
+    .form-horizontal .control-label {
+        padding-right: 0;
+    }
+}
+div#setPriceRow .modal-body {
+    display: inline-block;
+    width: 100%;
+}
+div#setPriceRow .form-group {
+    display: inline-block;
+    width: 100%;
+}
+.box-body .navbar .navbar-inner a.brand {
+    position: relative;
+}
+.box-body .navbar .navbar-inner .edit-orderGroup {
+    padding: 0 !important;
+}
+.order_group_item {
+    display: inline-block;
+    float: left;
+}
+.order_group_item:hover .edit-orderGroup {
+    display: inline-block !important;
+    margin: 0;
+}
+.div2-scroll > tbody > tr > td {
+    position: relative;
+}
+
+.div2-scroll > tbody > tr > td:first-child {
+    min-width: 100px !important;
+    width: 90px;
+}
+.div2-scroll > tbody > tr > td .order_col_action {
+    position: absolute;
+}
+.div2-scroll > tbody > tr > td:hover .order_col_action {
+    display: inline-block !important;
+}
+.order_col_action .delete-col {
+    padding: 0;
+    background: inherit;
+    border: 0;
+}
+
+#setPriceCol {
+    max-width: 500px;
+}
+.modal .modal-body {
+    display: inline-block;
+}
+#setPriceCol #add-item-set_price {
+    float: right;
+}
+.order_col_action {
+    position: absolute;
+    left: 38%;
+    top: -14px;
+}
+.modal .form-group {
+    display: inline-block;
+    width: 100%;
+}
+div#setPriceCol {
+    max-width: 380px;
+}
+.order_group_item:hover .order_group_action {
+    display: inline-block !important;
+}
+.pop-title p {
+    font-size: 11px;
+}
+.order-orther-info {
+    padding: 0;
+}
+.mb20 .gr-con {
+    padding: 0px 10px;
+}
+.box-footer.btn-foot button {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.quy-tac .container-pan {
+    min-height: 133px;
+}
+
+.order-box {
+    background: #d0d2d3;
+}
+.orderRowName_btn {
+    width: 160px;
+}
+#insertBox .label-info-div label,
+#insertBox .label-info-div label input {
+    cursor: pointer;
+}
+#insertBox .input-label-selected input {
+    display: none;
+}
+.form-control {
+    padding: 3px 12px;
+    height: 30px;
+}
+.order-orther-info .bg-prey-bold {
+    padding-top: 3px;
+    padding-left: 20px;
+}
+.order-orther-info .form-group {
+    margin-bottom: 3px;
+    width: 112%;
+    display: flex;
+}
+.order-orther-info #form-group-group_label label {
+    padding-left: 0;
+}
+.order-orther-info .select2-selection {
+    height: 30px !important;
+}
+.select2-container--default .select2-selection--multiple {
+    border: 0;
+}
+.select2-container .select2-selection--multiple {
+    height: 30px;
+    min-height: 30px;
+}
+label {
+    text-align: right !important;
+}
+div#wrapper2-scroll {
+    background: #fff;
+}
+table#order-data {
+    margin-bottom: 10px;
+}
+.order-header {padding: 5px 0;}
+
+
+#add_order_row {
+    color: #fff;
+    position: absolute;
+    right: 17px;
+    bottom: 11px;
+}
+#order-total-price {
+    position: absolute;
+    bottom: 32px;
+    left: 23px;
+    background: #fff;
+}
+
+/*
+@media(min-width: 768px) {
+    .flex-op .text-center {
+        width: 191px;
+        text-align: left !important;
+    }
+    .bel-option label {
+        padding: 0;
+        text-align: left !important;
+    }
+}*/
+
+.table-bordered > tbody > tr > td:last-child a {
+    border-right: 1px solid #ddd;
+    margin-left: 5px;
+    padding: 0 7px;
+}
+
+.table-bordered > tbody > tr > td:last-child span {
+    border-right: 1px solid #ddd;
+}
+
+.table-bordered > tbody > tr > td:last-child input {
+    padding-right: 5px;
+}
+
+.table-bordered > tbody > tr > td:last-child a:last-child {
+    border-right: unset;
+    border-left: unset;
+}
+
+[data-title] {
+    font-size: 30px; /*optional styling*/
+
+    position: relative;
+    cursor: help;
+}
+
+[data-title]:hover::before {
+    content: attr(data-title);
+    position: absolute;
+    left: -40px;
+    top: 24px;
+    line-height: 16px;
+    height: 60px;
+    width: 100px;
+    bottom: -26px;
+    z-index: 22;
+    display: block;
+    white-space: pre;
+    padding: 3px 6px;
+    border-radius: 9px;
+    padding: 7px;
+    background: #666666;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    white-space: pre-line;
+    text-align: center;
+}
+
+[data-title]:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    display: inline-block;
+    color: white;
+    border: 8px solid transparent;
+    border-bottom: 8px solid #666666;
+}
+
+.wrapper1-scroll, .wrapper2-scroll {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#wrapper2-scroll::-webkit-scrollbar, .wrapper1-scroll::-webkit-scrollbar {
+    height: 10px;
+}
+
+#wrapper2-scroll::-webkit-scrollbar-track, .wrapper1-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#wrapper2-scroll::-webkit-scrollbar-thumb, .wrapper1-scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #555;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+
+#wrapper2-scroll::-webkit-scrollbar-thumb:window-inactive, .wrapper1-scroll::-webkit-scrollbar-thumb:window-inactive {
+    background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122, 153, 217)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(28, 58, 148)));
+}
+
+#wrapper2-scroll::-webkit-scrollbar-button, .wrapper1-scroll::-webkit-scrollbar-button {
+    width: 20px;
+}
+
+
+.wrapper1-scroll {
+    height: 11px;
+}
+
+.div1-scroll {
+    height: 20px;
+}
+
+
+.div2-scroll > tbody > tr > td {
+    min-width: 160px;
+    background: #ffffff;
+    border-left: 1px solid #f4f4f4 !important;
+    border-right: 1px solid #f4f4f4 !important;
+    text-align: left;
+    color: #000000;
+}
+
+.div2-scroll > tbody > tr > td:first-child {
+    font-weight: 700;
+}
+
+.div2-scroll > tbody > tr > td:last-child {
+    min-width: 64px;
+    text-align: center;
+}
+
+.div2-scroll > tbody > tr > td:last-child > a {
+    color: #555;
+}
+
+.div2-scroll > tbody > tr > td a {
+    color: #666666;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.div2-scroll > tbody > tr > td a i {
+    font-size: 14px;
+}
+
+/*.div2-scroll > tbody > tr > td:last-child {*/
+/*text-align: center;*/
+/*min-width: unset;*/
+/**/
+/*}*/
+#form-group-sale_sale > .control-label {
+    padding-right: 0;
+}
+
+#form-group-factory_id > .col-sm-10 {
+    padding-top: 10px;
+}
+
+.add-row {
+    width: 100%;
+    text-align: right;
+}
+
+.edit-price {
+    color: yellow;
+    background: orange;
+    width: 150px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.navbar-fix {
+    min-height: 0px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-fix > .navbar-inner {
+    padding: 4px 10px !important;
+}
+
+.navbar-fix > .navbar-inner a {
+    color: #333 !important;
+}
+
+.box-body .rows-content {
+    padding: 0 10px !important;
+    background: #bbbdbf;
+}
+
+.table > tbody > tr > td > select {
+    float: right;
+    background: #CCCCCC;
+    width: 80px;
+    border-radius: 3px;
+    margin-left: 5px;
+    outline-color: #f9d439;
+}
+
+.table > tbody > tr > td > input {
+    float: right;
+    width: 80px;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.table > tbody > tr > .td-first {
+    text-align: left;
+    width: 85px;
+    font-weight: 600;
+}
+
+.table > tbody > .border-top-fff > td {
+    border-top: 1px solid #ffffff;
+}
+
+.price,
+span.price_text {
+    float: left;
+}
+
+.box-body .navbar {
+    display: inline-block;
+}
+
+.box-body .navbar .navbar-inner a {
+    padding: 5px 13px !important;
+    font-weight: 600;
+}
+.box-body .navbar .navbar-inner a.brand {
+    position: relative;
+    display: inline-block;
+}
+.box-body .navbar .navbar-inner a.brand img {
+    width: 12px;
+    position: absolute;
+    right: -2px;
+    top: -1px;
+}

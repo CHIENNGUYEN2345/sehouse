@@ -1,0 +1,7 @@
+1.Change Field Name
+-------------------------
+alter table property_photos change messages2 messages3 VARCHAR(225);
+
+2.Add Field Name
+-------------------------
+ALTER TABLE property_photos ADD COLUMN property varchar(25)

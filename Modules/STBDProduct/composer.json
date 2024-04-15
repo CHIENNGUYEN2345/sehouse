@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/stbdproduct",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\STBDProduct\\Providers\\STBDProductServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\STBDProduct\\": ""
+        }
+    }
+}

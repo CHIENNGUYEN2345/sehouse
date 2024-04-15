@@ -1,0 +1,1 @@
+@if($item->date_send != null){!! date('d/m/Y', strtotime($item->date_send)) !!}@endif - @if($item->finish_send != null){{ date('d-m-Y', strtotime($item->finish_send)) }}@endif

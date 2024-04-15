@@ -1,0 +1,1 @@
+<td class="item-{{$field['name']}}">{{ number_format($item->{$field['name']}, 0, '.', '.') }}đ</td>

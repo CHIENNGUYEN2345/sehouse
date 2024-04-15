@@ -1,0 +1,1 @@
+{{ number_format(\App\CRMWoo\Models\Order::where('bill_id', $item->id)->sum('quantity'), 0, '.', '.') }}

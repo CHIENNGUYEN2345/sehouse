@@ -1,0 +1,13 @@
+{
+    "name": "STBDAutoUpdatePriceWSS",
+    "alias": "stbdautoupdatepricewss",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\STBDAutoUpdatePriceWSS\\Providers\\STBDAutoUpdatePriceWSSServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

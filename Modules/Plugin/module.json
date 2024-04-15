@@ -1,0 +1,13 @@
+{
+    "name": "Plugin",
+    "alias": "plugin",
+    "description": "",
+    "keywords": [],
+    "order": -1,
+    "providers": [
+        "Modules\\Plugin\\Providers\\PluginServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

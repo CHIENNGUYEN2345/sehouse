@@ -1,0 +1,6 @@
+/* hover the button -> hien ra bang hang */
+button.btn.btn-view:hover {
+    text-decoration: underline;
+    color: brown;
+    font-weight: 500;
+}

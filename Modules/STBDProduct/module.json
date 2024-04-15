@@ -1,0 +1,13 @@
+{
+    "name": "STBDProduct",
+    "alias": "stbdproduct",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\STBDProduct\\Providers\\STBDProductServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

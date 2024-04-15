@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/edumarketing",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\EduMarketing\\Providers\\EduMarketingServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\EduMarketing\\": ""
+        }
+    }
+}

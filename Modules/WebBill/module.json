@@ -1,0 +1,13 @@
+{
+    "name": "WebBill",
+    "alias": "webbill",
+    "description": "",
+    "keywords": [],
+    "order": 1,
+    "providers": [
+        "Modules\\WebBill\\Providers\\WebBillServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

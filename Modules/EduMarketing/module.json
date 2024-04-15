@@ -1,0 +1,13 @@
+{
+    "name": "EduMarketing",
+    "alias": "edumarketing",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\EduMarketing\\Providers\\EduMarketingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

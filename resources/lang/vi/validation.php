@@ -1,0 +1,93 @@
+<?php
+
+return [
+
+    'accepted'             => ':attribute phải được chấp nhận.',
+    'active_url'           => ':attribute không phải là URL hợp lệ.',
+    'after'                => ':attribute phải là ngày sau :date.',
+    'after_or_equal'       => ':attribute phải là ngày sau hoặc bằng :date.',
+    'alpha'                => ':attribute chỉ có thể chứa các chữ cái.',
+    'alpha_dash'           => ':attribute chỉ có thể chứa chữ cái, số và dấu gạch ngang.',
+    'alpha_num'            => ':attribute chỉ có thể chứa chữ cái và số.',
+    'array'                => ':attribute phải là một mảng.',
+    'before'               => ':attribute phải là ngày trước :date.',
+    'before_or_equal'      => ':attribute phải là ngày trước hoặc bằng :date.',
+    'between'              => [
+        'numeric' => ':attribute phải nằm trong khoảng từ :min đến :max.',
+        'file'    => ':attribute phải nằm trong khoảng từ :min đến :max kilobytes.',
+        'string'  => ':attribute phải nằm trong khoảng từ :min đến :max ký tự.',
+        'array'   => ':attribute phải nằm trong khoảng từ :min đến :max phần tử.',
+    ],
+    'boolean'              => ':attribute phải đúng hoặc sai.',
+    'confirmed'            => 'Xác nhận :attribute không khớp.',
+    'date'                 => ':attribute không phải là ngày hợp lệ.',
+    'date_format'          => ':attribute không khớp với định dạng :format.',
+    'different'            => ':attribute và :other phải khác.',
+    'digits'               => ':attribute phải là :digits chữ số.',
+    'digits_between'       => ':attribute phải nằm trong khoảng từ :min đến :max chữ số.',
+    'dimensions'           => ':attribute có kích thước hình ảnh không hợp lệ.',
+    'dlàtinct'             => 'Trường :attribute có giá trị trùng lặp.',
+    'email'                => ':attribute phải là địa chỉ email hợp lệ.',
+    'exlàts'               => 'Thuộc tính đã chọn :attribute không hợp lệ.',
+    'file'                 => ':attribute phải là một tệp.',
+    'filled'               => 'Trường :attribute là bắt buộc.',
+    'image'                => ':attribute phải là một hình ảnh.',
+    'in'                   => 'Thuộc tính đã chọn :attribute không hợp lệ.',
+    'in_array'             => ':attribute không tồn tại trong :other.',
+    'integer'              => ':attribute phải là số nguyên.',
+    'ip'                   => ':attribute phải là địa chỉ IP hợp lệ.',
+    'json'                 => ':attribute phải là một chuỗi JSON hợp lệ.',
+    'max'                  => [
+        'numeric' => ':attribute có thể không lớn hơn :max.',
+        'file'    => ':attribute có thể không lớn hơn :max kilobytes.',
+        'string'  => ':attribute có thể không lớn hơn :max ký tự.',
+        'array'   => ':attribute có thể không nhiều hơn :max items.',
+    ],
+    'mimes'                => ':attribute phải là một type: :values.',
+    'mimetypes'            => ':attribute phải là một type: :values.',
+    'min'                  => [
+        'numeric' => ':attribute phải tối thiểu là :min.',
+        'file'    => ':attribute phải có ít nhất :min kilobytes.',
+        'string'  => ':attribute phải có ít nhất :min ký tự.',
+        'array'   => ':attribute phải có ít nhất :min items.',
+    ],
+    'not_in'               => 'The selected :attribute không hợp lệ.',
+    'numeric'              => ':attribute phải là số.',
+    'present'              => ':attribute  phải có mặt.',
+    'regex'                => ':attribute định dạng không hợp lệ.',
+    'required'             => ':attribute là bắt buộc.',
+    'required_if'          => ':attribute là bắt buộc khi :other là :value.',
+    'required_unless'      => ':attribute là cần thiết trừ khi :other là trong :values.',
+    'required_with'        => ':attribute là bắt buộc khi :values là present.',
+    'required_with_all'    => ':attribute là bắt buộc khi :values là present.',
+    'required_without'     => ':attribute là bắt buộc khi :values là not present.',
+    'required_without_all' => ':attribute là bắt buộc khi không có :values có mặt.',
+    'same'                 => ':attribute và :other phải khớp.',
+    'size'                 => [
+        'numeric' => ':attribute phải là :size.',
+        'file'    => ':attribute phải là :size kilobytes.',
+        'string'  => ':attribute phải là :size ký tự.',
+        'array'   => ':attribute phải chứa :size items.',
+    ],
+    'string'               => ':attribute phải là 1 chuỗi.',
+    'timezone'             => ':attribute phải là 1 khu vực hợp lệ',
+    'unique'               => ':attribute đã được sử dụng.',
+    'uploaded'             => ':attribute không thể tải lên.',
+    'url'                  => ':attribute định dạng không hợp lệ.',
+
+
+    'custom' => [
+        'attribute-name' => [
+            'rule-name' => 'tùy chỉnh-thông báo',
+        ],
+    ],
+
+    'attributes' => [
+        'name' => 'Họ và tên',
+        'phone' => 'Số điện thoại',
+        'password' => 'Mật khẩu',
+        'email' => 'Email',
+        'password_confimation' => 'Nhập lại mật khẩu'
+    ],
+
+];

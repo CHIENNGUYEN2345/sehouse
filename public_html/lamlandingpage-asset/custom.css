@@ -1,0 +1,32 @@
+.ladi-wraper {
+    height: unset;
+    overflow: hidden;
+}
+
+.ladi-countdown-background {
+    display: inline-block !important;
+}
+
+.relative .ladi-element, .relative .ladi-group {
+    position: relative !important;
+    float: left !important;
+    top: unset !important;
+    height: unset !important;
+}
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+
+.relative {
+    top: 0 !important;
+}
+
+.colspan-content {
+    display: none;
+}
+.colspan-title {
+    cursor: pointer;
+}

@@ -1,0 +1,1 @@
+<td class="item-{{$field['name']}}">{{ $item->{$field['name']} }}</td>

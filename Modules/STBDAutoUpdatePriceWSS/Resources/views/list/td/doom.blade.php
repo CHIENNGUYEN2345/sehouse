@@ -1,0 +1,1 @@
+<a href="{{route('website.doom',$item->id)}}" class="btn btn-success">Doom Setting</a>

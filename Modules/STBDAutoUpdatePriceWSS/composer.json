@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/stbdautoupdatepricewss",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\STBDAutoUpdatePriceWSS\\Providers\\STBDAutoUpdatePriceWSSServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\STBDAutoUpdatePriceWSS\\": ""
+        }
+    }
+}

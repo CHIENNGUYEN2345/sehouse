@@ -1,0 +1,1 @@
+{!! number_format($item->record_success, 0, ',', '.') !!}/{!! number_format($item->record_total, 0, ',', '.') !!}

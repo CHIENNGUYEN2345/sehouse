@@ -1,0 +1,13 @@
+{
+    "name": "CheckErrorLink",
+    "alias": "checkerrorlink",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\CheckErrorLink\\Providers\\CheckErrorLinkServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

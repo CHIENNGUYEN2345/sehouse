@@ -1,0 +1,1 @@
+<input type="hidden" name="{{ $field['name'] }}" class="form-control {{ @$field['class'] }}" id="{{ $field['id'] or $field['name'] }}" value="{{ old($field['name']) != null ? old($field['name']) : @$field['value'] }}" placeholder="{{ $field['label'] }}">

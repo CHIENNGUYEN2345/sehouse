@@ -1,0 +1,1 @@
+{{ isset($item->{$field['belongsTo']}[0]->{$field['display_field']}) ? @$item->{$field['belongsTo']}[0]->{$field['display_field']} : @$item->{$field['belongsTo']}->{$field['display_field']} }}

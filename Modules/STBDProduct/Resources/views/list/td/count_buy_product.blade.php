@@ -1,0 +1,1 @@
+{{\Modules\STBDBill\Models\Order::where('product_id',$item->id)->get()->sum('quantity')}}

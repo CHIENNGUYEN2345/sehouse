@@ -1,0 +1,1 @@
+@if($item->{$field['name']} != null){!! date('d/m/Y H:i:s', strtotime($item->{$field['name']})) !!}@endif

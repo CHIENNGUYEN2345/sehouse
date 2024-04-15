@@ -1,0 +1,1 @@
+<a href="{{ route($field['route_name'], ['category_id' => $item->id]) }}">{{ number_format($field['model']::where('multi_cat', 'like', '%|'.$item->id.'|%')->count(), 0, '.', '.') }}</a>

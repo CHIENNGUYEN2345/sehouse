@@ -1,0 +1,1 @@
+{{ number_format(\Modules\STBDProduct\Models\PropertieValue::where('properties_name_id', $item->id)->count()) }}

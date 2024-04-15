@@ -1,0 +1,13 @@
+{
+    "name": "WebDashboard",
+    "alias": "webdashboard",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\WebDashboard\\Providers\\WebDashboardServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,1 @@
+{{trans('admin.no_route')}}

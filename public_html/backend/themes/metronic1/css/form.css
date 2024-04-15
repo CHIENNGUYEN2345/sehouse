@@ -1,0 +1,216 @@
+.kt-portlet.kt-portlet--last {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.flaticon-edit {
+    color: #27abe5;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.flaticon-delete {
+    color: red;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.flaticon-add {
+    color: #469408;
+    font-size: 26px !important;
+    cursor: pointer;
+}
+
+.btn-add {
+    padding: 0 10px;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 25px;
+}
+
+.flaticon2-add-square {
+    color: #0b57d5;
+    font-size: 26px !important;
+    cursor: pointer;
+}
+
+.flaticon2-checkmark {
+    color: #ff9600;
+    font-size: 26px !important;
+    cursor: pointer;
+}
+.accordion-body{
+    display: block;
+}
+
+/*custom padding*/
+.kt-portlet .kt-portlet__body {
+    padding: 25px 15px;
+}
+.form-group-div {
+    display: inline-block;
+    float: left;
+    padding: 0px 10px;
+    width: 100%;
+}
+iframe {
+    width: 100%;
+    border: 0;
+}
+
+.form-group-div .select2-container {
+    max-height: 38.4px;
+}
+
+.button-save {
+    text-align: right;
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 10px 0px;
+}
+
+.form-group-div .select2-container {
+    max-width: 100%;
+}
+
+/*Huu Chien*/
+.kt-portlet .kt-portlet__head .kt-portlet__head-label .kt-portlet__head-title {
+    color: rgb(71 85 105/1);
+    font-weight: 500;
+}
+
+h3.kt-portlet__head-title {
+    color: black !important;
+    font-weight: 700 !important;
+}
+
+.form-control {
+    --tw-border-opacity: 1;
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    border-color: rgb(203 213 225/var(--tw-border-opacity));
+    border-radius: 4px;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.form-control:focus {
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-border-opacity: 1;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(59 130 246/var(--tw-ring-opacity));
+    border-color: rgb(59 130 246/var(--tw-border-opacity)) !important;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+    outline: 2px solid transparent !important;
+    outline-offset: 2px !important;
+}
+
+.form-group label {
+    --tw-text-opacity: 1;
+    color: rgb(71 85 105/var(--tw-text-opacity));
+    font-weight: 550;
+    font-size: 14px;
+}
+
+span.kt-hidden-mobile {
+    font-weight: 550;
+}
+
+.btn.btn-brand.btn-elevate {
+    border-radius: 15px;
+}
+
+.table thead tr {
+    background-color: #f4f4fc !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+span.select2-selection.select2-selection--single,
+ul.select2-selection__rendered,
+.select2-search select2-search--inline,
+span.select2-selection.select2-selection--multiple {
+    --tw-border-opacity: 1;
+    --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    border-color: rgb(203 213 225/var(--tw-border-opacity));
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+input#total_price, input#total_price_contract, input#price {
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.input-group-append {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow:hidden;
+}
+
+.log_submit {
+    margin-right: -23px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    padding: 3px 10px;
+    background-color: #87a8dc;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+
+.form-control {
+    font-size: 1.25rem;
+}
+
+@media(max-width: 1024px) {
+    .form-group label {
+        font-size: 12.5px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding: 5px 5px 5px 5px !important;
+    }
+
+    select#status {
+        padding: 5px 5px 5px 5px;
+        height: 30px;
+    }
+
+    /*ko dep, sua sau*/
+    input#name, input#short_name, input#tel, input#email, input#product, input#code, input#address {
+        height: 30px;
+    }
+
+    /*span.select2-selection.select2-selection--single {*/
+    /*    height: 38px;*/
+    /*}*/
+}
+
+@media(max-width: 768px) {
+    .form-group label {
+        font-size: 12.5px;
+    }
+}
+
+@media(max-width: 425px) {
+    div#form-group-name {
+        display: grid;
+    }
+}
+
+@media(max-width: 320px) {
+    .dat-lich-hen {
+        float: left !important;
+    }
+}
